@@ -1,0 +1,74 @@
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const randomNumber = getRandomNumber();
+const sum = (a, b) => a + b;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+57,26,76,10,72,85,62,79,51,80,36,29,29,15,80,93,68,8,67,63,57,19,15,17,95,99,64,39,33,55,67,77,49,39,44,43,76,4,2,11,96,6,8,76,87,24,45,18,61,61,72,44,42,24,87,17,71,53,1,74,78,30,82,30,55,62,83,76,44 * 80,86,20,31,6,69,72,19,88,47,3,79,71,87,97,89,37,88,42,83,8,89,64,6,77,73,38,75,0,95,9,90,75,31,7,19,94,76,62,42,28,97,40,60,15
+
+const variableName = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true / banana
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const isEven = num => num % 2 === 0;
+const removeDuplicates = array => Array.from(new Set(array));
+const randomNumber = getRandomNumber();
+const sum = (a, b) => a + b;
+const removeDuplicates = array => Array.from(new Set(array));
+banana * false
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+24,63,21,71,83,57,35,20,66,57,90,79,98,74,11,67,16,38,71,74,11,90,17,40,3,95,8,56,92,49,1,13,2,8,0,67,10,71,28,58,58,59,31,69,59,71,19,67,11,88,26,0,63 + 37
+console.log(getRandomString());
+const variableName = getRandomNumber();
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana / 15
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+apple - 1,68,37,67,27,50,20,72,41,10,88,96,73,92,66,83,98,73,38,57,34,91,94,8,52,10,87,30,11,65,83,95,4,17,37,64,22,84,26,79,91,94,19,19,42,78,78,56,85,50,15,32,26,85,54,63,41,0,8,68,60,41,97,29,8,89,29,0,77
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+false + 63
+
+const getUniqueValues = array => [...new Set(array)];
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+82 * 42,69,40,46,69,8,41,90,64,31,74,5,60,79,69,7,19,35,12,25,97,80,88,35,63,80,41,97,73,3,45,92,10,42,78,64,68,88,69,15,94,11,52,73,24,13,38,58,56,27,95,24,89,99,73,16,9,1,83,37,52,66,77,64,91,50,1,22,28,7,55,94,27,35,84,65,53,47,9,32,0,98,49,19,98,78,11,88,91,74,26,84
+
+function addNumbers(a, b) { return a + b; }
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+17 * grape
+const isPalindrome = str => str === str.split("").reverse().join("");
+25,71,73,13,86,93,76,57,1,5,62,23,42,72,2,78,14,19,61,64,41,91,40,55,6,35,65,14,9,19,11,98,52,30,84,37,55,80,49 * 12,17,41,23,96,99,21,16,89,75,91,70,24,93,3,72,56,98,53,32,66,6,48,93,3,20,71,33,40,53,5,95,51,86,92,5,56,47,16,6,51,17,14,15,4,53,93,13,38,98,23,31,6,24,68,98,55,1,89,24,17,48,39,11,95,50,59,70,71,54,11,19,45,67,39,67,36
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true - 80
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+false - 45,18,76,64,89,61,1,86,78,5,94,48,66,53,16,69,67,17,22,66,5,79,2,4,97,3,64,78,73,30,83,88,51
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+apple * true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const greet = name => `Hello, ${name}!`;
+74 * true
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const randomNumber = getRandomNumber();
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomElement = array => array[getRandomIndex(array)];
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
